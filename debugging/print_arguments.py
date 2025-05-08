@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 import sys
+import os
 
-for i in range(len(sys.argv)):
-    print(sys.argv[i])
+for arg in sys.argv:
+    print(os.path.basename(arg))
+
