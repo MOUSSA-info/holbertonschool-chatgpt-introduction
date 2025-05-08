@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 import sys
-import os
 
-for arg in sys.argv:
-    print(os.path.basename(arg))
-
+for i in range(1, len(sys.argv)):  # Commence à partir de l'index 1
+    print(sys.argv[i])
